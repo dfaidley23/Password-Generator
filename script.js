@@ -5,8 +5,8 @@ var characters = '0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOP
 // Write password to the #password input
 function generatePassword() {
     var password = '';
-    var length = (prompt('How many characters would you like your password to contain?'));
-    // a while loop with clauses for the length and a error prompt if the length criteria is not met
+    var length = (prompt('How long would you like your password to be? Please choose between 8 - 128 characters.'));
+    // a while loop with clauses for the length and an error prompt if the length criteria is not met
     while(length <= 8 || length >= 129) {
         alert('Your password must be between 8 and 128 characters long');
         var length = (prompt('How long would you like your password to be?'));
