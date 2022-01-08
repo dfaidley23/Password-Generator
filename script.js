@@ -14,7 +14,7 @@ function generatePassword() {
         alert('Your password must be between 8 and 128 characters long');
         length = (prompt('How long would you like your password to be?'));
     }
-
+    // If statments to check and see if the password criteria boxs are checked
     if (document.getElementById('upper').checked){
         possChar += alphabet.toUpperCase();
     }
@@ -51,7 +51,7 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword);
 
-
+// Added button for a copy function
 document.querySelector("#copy").addEventListener("click", function() {
     document.querySelector("#password").select()
     document.execCommand("copy")
