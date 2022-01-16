@@ -2,6 +2,7 @@
 
 ## Description
 The purpose of this site is to have a working Password generator. it is to be used by anyone who wishes to make a new and fully randomized password to use for whatever purpose they see fit.
+Also this generator has been customized to have only one prompt on the page with boxs to ask for criteria to be included in the password due to most browsers asking to block prompts from occuring one a website if you start receiving multiple prompts in a single session.
 
 - Here is a link to my website: https://dfaidley23.github.io/Password-Generator/
 
@@ -11,7 +12,7 @@ The purpose of this site is to have a working Password generator. it is to be us
 - [Tests](#tests)
 
 ## Usage
-Below you will see a screenshot of my Portfolio. Later in the list will be a description of how you can contribute to this site and test its functionality.
+Below you will see a screenshot of my Secure Password Generator. Later in the list will be a description of how you can contribute to this site and test its functionality.
     ![Password Generator](screenshot.png)
 
 ## Credits
